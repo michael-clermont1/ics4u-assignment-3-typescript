@@ -106,7 +106,6 @@ class Triangle {
 
   public angle (angleNumber: number): number {
     if (this.isValid() && angleNumber > 0 && angleNumber < 4) {
-      // I do not want to redo this, so I will leave the array here.
       const radianAngles = [
         Math.acos(
           (Math.pow(this.Side1, 2) +
